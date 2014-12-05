@@ -29,21 +29,21 @@
 
 # Ce script est destiné à vous aider à tester vos programmes.
 # Les trois prorgammes
-VERIFICATEUR=__A_CHANGER__
-SOLVER=__A_CHANGER__
-REDUCTEUR=__A_CHANGER__
+VERIFICATEUR="../Verificateur/3COL_Verificateur.py"
+SOLVER="../Solver/3COL_Solveur.py"
+REDUCTEUR="../Reducteur/3COL_Reducteur.py"
 
 # P1 est le problème principal, celui dont veut montrer qu'il est NP-Complet
-INSTANCE_P1_VRAI=__A_CHANGER__
-INSTANCE_P1_FAUX=__A_CHANGER__
-
+INSTANCE_P1_VRAI="../Instances/3COL_Instance_Vrai.txt"
+INSTANCE_P1_FAUX="../Instances/3COL_Instance_Faux.txt"
+	
 # Certificats pour l'instance VRAI de P1
-CERTIF_VALIDE_POUR_INSTANCE_P1_VRAI=__A_CHANGER__
+CERTIF_VALIDE_POUR_INSTANCE_P1_VRAI="../Certificat/3COL_Certificat.txt"
 
 # P2 est un problème qu'on sait être NP-Complet. Ces instances seront traitées
 # par le programme de réduction afin de produires des instance de P1.
-INSTANCE_P2_VRAI=__A_CHANGER__
-INSTANCE_P2_FAUX=__A_CHANGER__
+INSTANCE_P2_VRAI="../Instances/3SAT_Instance_Vrai.txt"
+INSTANCE_P2_FAUX="../Instances/3SAT_Instance_Faux.txt"
 
 #
 #
